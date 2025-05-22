@@ -2,6 +2,14 @@
 
 @layer components {
     .container {
-        @apply max-w-5xl w-full px-4 lg:px-0 m-auto
+        @apply lg:max-w-5xl w-full px-4 lg:px-0 m-auto
     }
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.scrollDontShow::-webkit-scrollbar {
+    display: none;
 }
